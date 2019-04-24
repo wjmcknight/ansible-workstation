@@ -1,0 +1,26 @@
+---
+- name: Install packages
+  apt: name={{item}}
+
+  with_items:
+    - firmware-linux-free
+    - firmware-linux-nonfree
+    - intel-microcode
+    - htop
+    - nmap
+    - tmux
+    - memtest86+
+    - mlocate
+    - gamin
+    - zsh
+    - vim
+    - vim-gtk
+    - cpufrequtils
+    - haveged
+    - uptimed
+    - bzr
+    - git
+    - subversion
+    - mercurial
+    - chrony
+    - build-essential
