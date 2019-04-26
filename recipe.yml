@@ -1,13 +1,15 @@
 ---
 - name: Automate workstation setup after fresh install
   hosts: localhost
-  become: true
+  become: True
+  sudo: True
+  sudo_user: john
+  sudo_ask_pass: True
 
   pre_tasks:
     - name: Update repositories
       apt: update_cache=yes
-      changed_when: false
+      changed_when: False
 
   tasks:
     - include: tasks/packages.yml
-    - include: tasks/config.yml

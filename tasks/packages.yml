@@ -24,3 +24,4 @@
     - mercurial
     - chrony
     - build-essential
+    - aptitude
