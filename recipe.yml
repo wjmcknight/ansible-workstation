@@ -1,4 +1,3 @@
----
 - name: Automate workstation setup after fresh install
   hosts: localhost
   become: True
