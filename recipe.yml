@@ -1,10 +1,8 @@
 ---
 - name: Automate workstation setup after fresh install
   hosts: localhost
-  #become: True
-  sudo: True
-  sudo_user: john
-  sudo_ask_pass: True
+  become: True
+  become_user: john
 
   pre_tasks:
     - name: Update repositories
