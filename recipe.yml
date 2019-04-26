@@ -1,7 +1,7 @@
 ---
 - name: Automate workstation setup after fresh install
   hosts: localhost
-  become: True
+  #become: True
   sudo: True
   sudo_user: john
   sudo_ask_pass: True
