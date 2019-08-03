@@ -1,5 +1,5 @@
 ---
-- name: Install packages
+- name: Install core packages
   apt: name={{item}}
 
   with_items:
@@ -15,7 +15,7 @@
     - zsh
     - vim
     - vim-gtk
-    - cpufrequtils
+    - tuned
     - haveged
     - uptimed
     - bzr
@@ -25,3 +25,4 @@
     - chrony
     - build-essential
     - aptitude
+    - dmz-cursor-theme

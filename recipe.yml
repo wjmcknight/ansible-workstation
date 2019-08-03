@@ -1,8 +1,6 @@
-- name: Automate workstation setup after fresh install
+- name: Automate installation of packages on workstation after fresh install
   hosts: localhost
   become: True
-  become_user: john
-  ansible_become_ask_pass: True
 
   pre_tasks:
     - name: Update repositories
@@ -10,4 +8,4 @@
       changed_when: False
 
   tasks:
-    - include: tasks/packages.yml
+    - include: tasks/core.yml
