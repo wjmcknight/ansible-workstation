@@ -1,10 +1,10 @@
----
 - name: Install core packages
-  apt: name={{item}}
+  apt: name={{item}} state=installed
 
   with_items:
     - firmware-linux-free
     - firmware-linux-nonfree
+    - firmware-realtek
     - intel-microcode
     - htop
     - nmap
@@ -26,3 +26,12 @@
     - build-essential
     - aptitude
     - dmz-cursor-theme
+    - argyll
+    - icc-profiles
+    - ibus
+    - alacarte
+    - galculator
+    - gvfs-backends
+    - faba-icon-theme
+    - moka-icon-theme
+    - greybird-gtk-theme
