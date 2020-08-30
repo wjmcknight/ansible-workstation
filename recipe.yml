@@ -1,6 +1,6 @@
 - name: Automate installation of packages on workstation after fresh install
   hosts: localhost
-  become: True
+  become: yes
 
   pre_tasks:
     - name: Update repositories
@@ -8,4 +8,4 @@
       changed_when: False
 
   tasks:
-    - include: tasks/packages.yml
+    - include: tasks/packages-new.yml
