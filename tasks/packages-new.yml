@@ -16,7 +16,6 @@
     - tuned
     - haveged
     - bzr
-    - git
     - subversion
     - mercurial
     - chrony
