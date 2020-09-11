@@ -89,3 +89,9 @@
     - mpd
     - mpc
     - ncmpcpp
+
+    # Virtualization tools
+    - qemu-system
+    - libvirt-clients
+    - libvirt-daemon-system
+    - virt-manager
