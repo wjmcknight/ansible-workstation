@@ -8,4 +8,4 @@
       changed_when: False
 
   tasks:
-    - include: tasks/packages-new.yml
+    - include: tasks/packages-xfce.yml
