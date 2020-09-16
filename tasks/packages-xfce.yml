@@ -1,0 +1,78 @@
+- name: Install core packages
+  apt:
+    pkg:
+    # Core
+    - firmware-linux-nonfree
+    - firmware-realtek
+    - intel-microcode
+    - htop
+    - nmap
+    - tmux
+    - memtest86+
+    - mlocate
+    - gamin
+    - zsh
+    - vim
+    - tuned
+    - haveged
+    - uptimed
+    - bzr
+    - subversion
+    - mercurial
+    - chrony
+    - build-essential
+    - aptitude
+    - dmz-cursor-theme
+    - argyll
+    - icc-profiles
+    - ibus
+    - galculator
+    - gvfs-backends
+    - faba-icon-theme
+    - moka-icon-theme
+    - greybird-gtk-theme
+
+    # Graphics
+    - create-resources
+    - gimp
+    - gimp-data-extras
+    - gimp-gutenprint
+    - gimp-lensfun
+    - gimp-ufraw
+    - inkscape
+    - darktable
+
+    # Internet
+    - chromium
+    - filezilla
+    - hexchat
+    - transmission-gtk
+
+    # Multimedia
+    - asunder
+    - audacious
+    - audacity
+    - guvcview
+    - handbrake-gtk
+    - parole
+    - xfburn
+    - ffmpeg
+    - flac
+    - lame
+    - mpg123
+    - mpv
+    - normalize-audio
+    - btag
+    - youtube-dl
+    - gstreamer1.0-plugins-bad
+    - gstreamer1.0-plugins-ugly
+    - gstreamer1.0-vaapi
+    - mpd
+    - mpc
+    - ncmpcpp
+
+    # Virtualizations tools
+    - qemu-system
+    - libvirt-clients
+    - libvirt-daemon-system
+    - virt-manager
