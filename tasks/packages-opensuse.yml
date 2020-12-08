@@ -1,0 +1,68 @@
+- name: Install core packages
+  apt:
+    pkg:
+    # Core
+    - htop
+    - nmap
+    - tmux
+    - memtest86+
+    - zsh
+    - bzr
+    - git
+    - subversion
+    - mercurial
+    - argyllcms
+    - icc-profiles-all
+    - AdobeICCProfiles
+    - ibus
+    - faba-icon-theme
+    - moka-icon-theme
+    - metatheme-greybird-common
+    - metatheme-numix-common
+    - xfce4-places-plugin
+
+    # Graphics
+    - gimp-save-for-web
+    - gimp-ufraw
+    - gutenprint-gimpplugin
+    - inkscape
+    - darktable
+    - darktable-tools-basecurve
+    - darktable-tools-noise
+
+    # Internet
+    - chromium
+    - chromium-ffmpeg-extra
+    - chromium-plugin-widevinecdm
+    - enigmail
+    - filezilla
+    - hexchat
+    - pidgin-plugin-libnotify
+    - pidgin-plugin-otr
+    - pidgin-plugin-privacy-please
+
+    # Multimedia
+    - asunder
+    - audacious
+    - audacity
+    - guvcview
+    - handbrake-gtk
+    - xfburn
+    - mpg123
+    - mpv
+    - normalize
+    - gstreamer-plugins-bad-orig-addon
+    - gstreamer-plugins-good-extra
+    - gstreamer-plugins-libav
+    - gstreamer-plugins-ugly
+    - gstreamer-plugins-ugly-orig-addon
+    - gstreamer-plugins-vaapi
+    - mpd
+    - mpclient
+    - ncmpcpp
+
+    # Virtualizations tools
+    - qemu-system
+    - libvirt-clients
+    - libvirt-daemon-system
+    - virt-manager

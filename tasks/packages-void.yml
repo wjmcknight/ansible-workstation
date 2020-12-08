@@ -1,0 +1,67 @@
+- name: Install core packages
+  apt:
+    pkg:
+    # Core
+    - void-repo-nonfree
+    - intel-ucode
+    - htop
+    - nmap
+    - tmux
+    - memtest86+
+    - mlocate
+    - gamin
+    - zsh
+    - vim
+    - cpufrequtils
+    - haveged
+    - uptimed
+    - bzr
+    - subversion
+    - mercurial
+    - chrony
+    - xcursor-vanilla-dmz-aa
+    - argyllcms
+    - ibus
+    - galculator-gtk3
+    - gvfs-backends
+    - faba-icon-theme
+    - papirus-icon-theme
+    - greybird-themes
+    - flatpak
+
+    # Graphics
+    - gimp
+    - ufraw-gimp
+    - gutenprint
+    - inkscape
+    - darktable
+    - epson-inkjet-printer-escpr
+
+    # Internet
+    - chromium
+    - filezilla
+    - hexchat
+    - transmission-gtk
+
+    # Multimedia
+    - asunder
+    - audacious
+    - audacity
+    - guvcview
+    - handbrake
+    - xfburn
+    - flac
+    - mpg123
+    - mpg123-pulseaudio
+    - mpv
+    - youtube-dl
+    - gstreamer-vaapi
+    - mpd
+    - mpc
+    - ncmpcpp
+
+    # Virtualizations tools
+    - qemu-system
+    - libvirt-clients
+    - libvirt-daemon-system
+    - virt-manager
