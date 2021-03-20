@@ -19,7 +19,6 @@
     - bzr
     - subversion
     - mercurial
-    - chrony
     - build-essential
     - aptitude
     - dmz-cursor-theme
@@ -28,6 +27,7 @@
     - ibus
     - galculator
     - gvfs-backends
+    - xfce4-indicator-plugin
     - faba-icon-theme
     - moka-icon-theme
     - greybird-gtk-theme
@@ -45,6 +45,7 @@
     # Internet
     - chromium
     - filezilla
+    - geary
     - hexchat
     - transmission-gtk
 
@@ -67,9 +68,7 @@
     - gstreamer1.0-plugins-bad
     - gstreamer1.0-plugins-ugly
     - gstreamer1.0-vaapi
-    - mpd
-    - mpc
-    - ncmpcpp
+    - cmus
 
     # Virtualizations tools
     - qemu-system
