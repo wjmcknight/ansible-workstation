@@ -8,18 +8,17 @@
     - memtest86+
     - gamin
     - zsh
-    - vim
+    - tuned
     - haveged
     - uptimed
     - bzr
     - subversion
     - mercurial
-    - chrony
     - build-essential
     - argyll
     - icc-profiles
-    - ibus
     - galculator
+    - ibus
     - faba-icon-theme
     - moka-icon-theme
     - greybird-gtk-theme
@@ -30,35 +29,30 @@
     - gimp-data-extras
     - gimp-gutenprint
     - gimp-lensfun
-    - gimp-ufraw
     - inkscape
     - darktable
+    - ristretto
 
     # Internet
     - chromium
     - filezilla
-    - hexchat
-    - transmission-gtk
+    - enigmail
 
     # Multimedia
     - asunder
     - audacious
     - audacity
     - guvcview
-    - handbrake-gtk
+    - handbrake
     - parole
     - xfburn
     - ffmpeg
-    - flac
     - lame
     - mpg123
     - mpv
     - normalize-audio
     - btag
     - youtube-dl
-    - gstreamer1.0-plugins-bad
-    - gstreamer1.0-plugins-ugly
-    - gstreamer1.0-vaapi
     - mpd
     - mpc
     - ncmpcpp
