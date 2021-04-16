@@ -12,14 +12,14 @@
     - subversion
     - mercurial
     - argyllcms
-    - icc-profiles-all
     - AdobeICCProfiles
+    - icc-profiles-all
     - ibus
+    - xfce4-places-plugin
     - faba-icon-theme
     - moka-icon-theme
     - metatheme-greybird-common
-    - metatheme-numix-common
-    - xfce4-places-plugin
+    - flatpak
 
     # Graphics
     - gimp-save-for-web
@@ -37,9 +37,6 @@
     - enigmail
     - filezilla
     - hexchat
-    - pidgin-plugin-libnotify
-    - pidgin-plugin-otr
-    - pidgin-plugin-privacy-please
 
     # Multimedia
     - asunder
@@ -48,18 +45,19 @@
     - guvcview
     - handbrake-gtk
     - xfburn
+    - flac
+    - lame
     - mpg123
     - mpv
     - normalize
+    - youtube-dl
     - gstreamer-plugins-bad-orig-addon
     - gstreamer-plugins-good-extra
     - gstreamer-plugins-libav
     - gstreamer-plugins-ugly
     - gstreamer-plugins-ugly-orig-addon
     - gstreamer-plugins-vaapi
-    - mpd
-    - mpclient
-    - ncmpcpp
+    - cmus
 
     # Virtualizations tools
     - qemu-system
