@@ -1,0 +1,81 @@
+- name: Install core packages
+  apt:
+    pkg:
+    # Core
+    - intel-ucode
+    - htop
+    - nano
+    - nmap
+    - tmux
+    - memtest86+
+    - mlocate
+    - gamin
+    - zsh
+    - vim
+    - gvim
+    - cpufrequtils
+    - haveged
+    - uptimed
+    - bzr
+    - subversion
+    - mercurial
+    - argyllcms
+    - ibus
+    - galculator-gtk3
+    - xfce4-places-plugin
+    - xfce4-pulseaudio-plugin
+    - xfce4-whiskermenu-plugin
+    - faba-icon-theme
+    - greybird-themes
+    - flatpak
+
+    # Graphics
+    - gimp
+    - ufraw-gimp
+    - cups
+    - cups-filters
+    - gutenprint
+    - system-config-printer
+    - system-config-printer-udev
+    - inkscape
+    - darktable
+
+    # Internet
+    - chromium
+    - chromium-widevine
+    - filezilla
+    - geary
+    - hexchat
+    - transmission-gtk
+
+    # Multimedia
+    - asunder
+    - audacious
+    - audacious-plugins
+    - audacity
+    - guvcview
+    - handbrake
+    - xfburn
+    - beets
+    - mpg123
+    - mpg123-pulseaudio
+    - mpv
+    - youtube-dl
+    - gstreamer-vaapi
+    - intel-media-driver
+    - cmus
+    - cmus-faad
+    - cmus-ffmpeg
+    - cmus-flac
+    - cmus-pulseaudio
+
+    # Office
+    - libreoffice
+    - xfce4-dict
+    - xreader
+
+    # Virtualizations tools
+    - qemu-system
+    - libvirt-clients
+    - libvirt-daemon-system
+    - virt-manager
